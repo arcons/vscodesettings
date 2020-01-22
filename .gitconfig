@@ -1,6 +1,5 @@
 [user]
 	name = Alex Consunji
-	email = alex.consunji@delta.com
 [alias]
 	co = checkout
 	ci = commit
