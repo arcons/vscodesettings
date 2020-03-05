@@ -1,4 +1,27 @@
 {
   "debug.onTaskErrors": "debugAnyway",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "search.exclude": {
+    "**/.git": true, // this is a default value
+    "**/.DS_Store": true, // this is a default value
+    "**/node_modules": true, // this excludes all folders
+    "**/coverage": true, // this excludes all folders
+    "**/.vscode": true, // this excludes all folders
+    "**/documentation": true, // this excludes all folders
+    // named "node_modules" from
+    // the explore tree
+    // alternative version
+    "node_modules": true // this excludes the folder
+    // only from the root of
+    // your workspace
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "markiscodecoverage.searchCriteria": "coverage/core/lcov*.info",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.autoSave": "afterDelay",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "cSpell.userWords": ["", "aultarr."]
 }
