@@ -9,6 +9,9 @@ cd to this repo
 brew bundle
 ```
 
+For bash setup
+Go to terminal -> preferences set terminal to usr/bin/bash
+
 # Script for installing vscode extensions
 
 Create a bash script to run this and import settings
