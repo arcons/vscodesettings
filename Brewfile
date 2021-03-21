@@ -1,7 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
-cask "google-chrome"
 brew "bash"
 brew "bash-completion@2"
 brew "git"
