@@ -1,7 +1,4 @@
 eamodio.gitlens
 esbenp.prettier-vscode
-johnpapa.Angular2
-markis.code-coverage
-ms-vscode.vscode-typescript-tslint-plugin
 msjsdiag.debugger-for-chrome
 streetsidesoftware.code-spell-checker
