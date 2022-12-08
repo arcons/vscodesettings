@@ -7,5 +7,4 @@ brew "wget"
 brew "nmap"
 brew "go"
 
-cask "temurin"
 cask "google-cloud-sdk"

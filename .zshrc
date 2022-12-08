@@ -3,7 +3,6 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/alexconsunji/.oh-my-zsh"
-eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -106,3 +105,6 @@ export GOPATH=$HOME/go
 export GOREPO=$HOME/go/src/github.com
 export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
+alias python=python3
+alias pip=pip3
